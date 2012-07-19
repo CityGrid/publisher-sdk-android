@@ -1,0 +1,78 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+  <TITLE>CityGrid Java SDK Overview</TITLE>
+</HEAD>
+<BODY>
+<h1>CityGrid Java SDK</h1>
+
+<h2>Introduction</h2>
+
+<p>
+  Welcome to the CityGrid SDK Documentation for Java/Android. Using the CityGrid SDK, you
+  can access and display local <strong>content</strong> and <strong>advertising</strong> on your Java and Android
+  application. This CityGrid SDK and Documentation uses and mirrors the publicly
+  available REST API's available at <a href="http://docs.citygridmedia.com">docs.citygridmedia.com</a>.
+</p>
+
+<p>The SDK removes all of the busy work of network calls as well as data parsing
+  into Java objects.
+</p>
+
+<h2>Installation</h2>
+
+<p>
+  The CityGrid SDK is available as a jar. This makes it relatively easy
+  to include in a project.  To download the jar directly, follow this <a href="[FIX_ME]">link</a>.  If you use maven,
+  simply put the following in your pom.xml.
+</p>
+
+<pre>
+  &lt;dependency&gt;
+    &lt;groupId&gt;com.citygrid&lt;/groupId&gt;
+    &lt;artifactId&gt;citygrid&lt;/artifactId&gt;
+    &lt;version&gt;[VERSION]&lt;/version&gt;
+  &lt;/dependency&gt;
+</pre>
+
+<h2>Getting Started</h2>
+
+<p>
+  To start use the SDK, simply configure CityGrid with your CityGrid publisher code.  The SDK has a default simulation
+  mode, under which hard coded (aka simulated data) will be returned.  To turn simulation mode off, simply call
+  <code>CityGrid.setSimulation(false)</code>.  In addition it is recommended you specify a default network timeout
+  and placement. Placement is field used to help aggregate reports.
+</p>
+
+<pre>
+    CityGrid.setPublisher("test");
+    CityGrid.setSimulation(false);
+</pre>
+
+<p>
+  <strong><em>NOTE:</em></strong> The CityGrid SDK is synchronous in nature. All calls using the SDK
+  should be performed on a background thread. This is best managed by your application.
+</p>
+
+<p>
+  The SDK offers API classes that closely mirrors the REST APIs at
+  <a href="http://docs.citygridmedia.com">docs.citygridmedia.com</a>.  To obtain such an API class, simple call the
+  static method on CityGrid class.
+</p>
+
+<pre>
+    CGPlacesSearch search = CityGrid.placesSearch();
+    search.setType(CGPlacesSearchType.MovieTheater);
+    search.setWhere("90045");
+    search.setHistograms(true);
+
+    try {
+        CGPlacesSearchResults results = search(search);
+    }
+    catch (CGException e) {
+        log.error("Something went wrong", e);
+    }
+</pre>
+
+</BODY>
+</HTML>

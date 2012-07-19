@@ -1,0 +1,32 @@
+Welcome to the CityGrid SDK Documentation for Java/Android. Using the CityGrid SDK, you
+can access and display local *content* and *advertising* on your Java/Android
+application. This CityGrid SDK and Documentation uses and mirrors the publicly
+available REST API's available at http://docs.citygridmedia.com
+
+Available along with the SDK is an example Android app that demonstrates a typical usage
+of the APIs.  There are two versions of this example, one is a pure Android Eclipse project,
+which requires Eclipse and Google's ADT at http://developer.android.com/sdk/eclipse-adt.html.
+And of course you need to have Android SDK at http://developer.android.com/sdk/index.html set up.
+
+The other version of the example project is a maven-managed project, though it can also be also
+be managed by Eclipse with proper plugins.
+
+To use the maven-managed example project in Eclipse, you'll need to following plugins:
+
+    * m2eclipse:
+      - http://m2eclipse.sonatype.org/sites/m2e
+    * m2eclipse extras:
+      -http://m2eclipse.sonatype.org/sites/m2e-extras
+    * Google Eclipse plugin:
+      - http://dl.google.com/eclipse/plugin/3.6
+    * Google android plugin:
+      - https://dl-ssl.google.com/android/eclipse/
+    * Maven Integration for Android Development Tools
+      - https://svn.codespot.com/a/eclipselabs.org/m2eclipse-android-integration/updates/m2eclipse-android-integration/
+
+The list of plugins above are based on Eclipse Helios, you may need different versions if you use a different Eclipse
+version.
+
+See README that comes with the example project for further details on how to set up and run the example app.
+
+

@@ -1,0 +1,20 @@
+CityGrid SDK Example Android Eclipse Project
+
+This is a non-maven managed, pure Android Eclipse project.  You'll need google andorid plugin and google eclipse plugin installed.
+
+This is tested on Eclipse Helios on Mac OSX Lion.
+
+Find the plugins here:
+
+    * google eclipse plugin: http://dl.google.com/eclipse/plugin/3.6
+    * google android plugin: https://dl-ssl.google.com/android/eclipse/
+    
+Instruction for Importing into Eclipse
+
+1. In Eclipse, choose Import | Existing project into workspace;
+2. Once imported, update Java Build Path | Libraries to add all jars from libs folder.
+3. Create an Android emulator if not already done so.  This example requires Android 2.2 or up.
+4. Clean and build the project before running it.
+5. Right click on project, choose Run As Android Application.
+
+If signature problem, please remove the previous version from emulator or device.

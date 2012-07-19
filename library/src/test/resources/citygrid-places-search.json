@@ -1,0 +1,843 @@
+{"results":{
+  "query_id":null,
+  "uri":"http://api.citygridmedia.com/search/places/v2/search/where?has_offers=false&type=movietheater&format=json&page=1&rpp=20&histograms=true&where=90045&publisher=test&region_type=circle",
+  "first_hit":1,
+  "last_hit":12,
+  "total_hits":12,
+  "page":1,
+  "rpp":20,
+  "did_you_mean":null,
+  "regions":[
+    {
+      "type":"postal_code",
+      "name":"90045",
+      "latitude":33.953182,
+      "longitude":-118.400197,
+      "default_radius":3.28
+    }
+  ],
+  "histograms":[
+    {
+      "name":"Payment Methods",
+      "items":[
+        {
+          "count":1,
+          "name":"Gift Certificate",
+          "uri":"http://api.citygridmedia.com/search/places/v2/search/where?tag=11352&where=90045&publisher=test&histograms=true",
+          "tag_ids":[
+            {
+              "tag_id":11352
+            }
+          ]
+        },
+        {
+          "count":1,
+          "name":"Visa",
+          "uri":"http://api.citygridmedia.com/search/places/v2/search/where?tag=11382&where=90045&publisher=test&histograms=true",
+          "tag_ids":[
+            {
+              "tag_id":11382
+            }
+          ]
+        },
+        {
+          "count":1,
+          "name":"MasterCard",
+          "uri":"http://api.citygridmedia.com/search/places/v2/search/where?tag=11361&where=90045&publisher=test&histograms=true",
+          "tag_ids":[
+            {
+              "tag_id":11361
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name":"Auto Dealer Services",
+      "items":[
+        {
+          "count":1,
+          "name":"Car Auctions",
+          "uri":"http://api.citygridmedia.com/search/places/v2/search/where?tag=10203&where=90045&publisher=test&histograms=true",
+          "tag_ids":[
+            {
+              "tag_id":10203
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name":"Used Car Dealer Products",
+      "items":[
+        {
+          "count":1,
+          "name":"Used Cars",
+          "uri":"http://api.citygridmedia.com/search/places/v2/search/where?tag=12798&where=90045&publisher=test&histograms=true",
+          "tag_ids":[
+            {
+              "tag_id":12798
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name":"Categories",
+      "items":[
+        {
+          "count":1,
+          "name":"Limousine Service",
+          "uri":"http://api.citygridmedia.com/search/places/v2/search/where?tag=4226&where=90045&publisher=test&histograms=true",
+          "tag_ids":[
+            {
+              "tag_id":4226
+            }
+          ]
+        },
+        {
+          "count":1,
+          "name":"Theatres",
+          "uri":"http://api.citygridmedia.com/search/places/v2/search/where?tag=135&where=90045&publisher=test&histograms=true",
+          "tag_ids":[
+            {
+              "tag_id":135
+            }
+          ]
+        },
+        {
+          "count":1,
+          "name":"Car Service",
+          "uri":"http://api.citygridmedia.com/search/places/v2/search/where?tag=4224&where=90045&publisher=test&histograms=true",
+          "tag_ids":[
+            {
+              "tag_id":4224
+            }
+          ]
+        },
+        {
+          "count":1,
+          "name":"Unclassified",
+          "uri":"http://api.citygridmedia.com/search/places/v2/search/where?tag=6019&where=90045&publisher=test&histograms=true",
+          "tag_ids":[
+            {
+              "tag_id":6019
+            }
+          ]
+        },
+        {
+          "count":1,
+          "name":"Motorcycle Parts & Accessories",
+          "uri":"http://api.citygridmedia.com/search/places/v2/search/where?tag=317&where=90045&publisher=test&histograms=true",
+          "tag_ids":[
+            {
+              "tag_id":317
+            }
+          ]
+        },
+        {
+          "count":1,
+          "name":"All Terrain Vehicle Dealers",
+          "uri":"http://api.citygridmedia.com/search/places/v2/search/where?tag=332&where=90045&publisher=test&histograms=true",
+          "tag_ids":[
+            {
+              "tag_id":332
+            }
+          ]
+        },
+        {
+          "count":12,
+          "name":"Movie Theaters",
+          "uri":"http://api.citygridmedia.com/search/places/v2/search/where?tag=157&where=90045&publisher=test&histograms=true",
+          "tag_ids":[
+            {
+              "tag_id":157
+            }
+          ]
+        },
+        {
+          "count":1,
+          "name":"Airport Parking Service",
+          "uri":"http://api.citygridmedia.com/search/places/v2/search/where?tag=321&where=90045&publisher=test&histograms=true",
+          "tag_ids":[
+            {
+              "tag_id":321
+            }
+          ]
+        },
+        {
+          "count":2,
+          "name":"First Run Movie Theaters",
+          "uri":"http://api.citygridmedia.com/search/places/v2/search/where?tag=161&where=90045&publisher=test&histograms=true",
+          "tag_ids":[
+            {
+              "tag_id":161
+            }
+          ]
+        },
+        {
+          "count":1,
+          "name":"IMAX Theaters",
+          "uri":"http://api.citygridmedia.com/search/places/v2/search/where?tag=162&where=90045&publisher=test&histograms=true",
+          "tag_ids":[
+            {
+              "tag_id":162
+            }
+          ]
+        },
+        {
+          "count":1,
+          "name":"Halls & Auditoriums",
+          "uri":"http://api.citygridmedia.com/search/places/v2/search/where?tag=623&where=90045&publisher=test&histograms=true",
+          "tag_ids":[
+            {
+              "tag_id":623
+            }
+          ]
+        },
+        {
+          "count":1,
+          "name":"Newspaper Publishers",
+          "uri":"http://api.citygridmedia.com/search/places/v2/search/where?tag=3454&where=90045&publisher=test&histograms=true",
+          "tag_ids":[
+            {
+              "tag_id":3454
+            }
+          ]
+        },
+        {
+          "count":1,
+          "name":"Taxis & Shuttles",
+          "uri":"http://api.citygridmedia.com/search/places/v2/search/where?tag=4223&where=90045&publisher=test&histograms=true",
+          "tag_ids":[
+            {
+              "tag_id":4223
+            }
+          ]
+        },
+        {
+          "count":1,
+          "name":"Automotive Repair",
+          "uri":"http://api.citygridmedia.com/search/places/v2/search/where?tag=268&where=90045&publisher=test&histograms=true",
+          "tag_ids":[
+            {
+              "tag_id":268
+            }
+          ]
+        },
+        {
+          "count":1,
+          "name":"Electric Car Dealers",
+          "uri":"http://api.citygridmedia.com/search/places/v2/search/where?tag=246&where=90045&publisher=test&histograms=true",
+          "tag_ids":[
+            {
+              "tag_id":246
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name":"Taxi & Shuttle Services",
+      "items":[
+        {
+          "count":1,
+          "name":"Airport Transportation",
+          "uri":"http://api.citygridmedia.com/search/places/v2/search/where?tag=12627&where=90045&publisher=test&histograms=true",
+          "tag_ids":[
+            {
+              "tag_id":12627
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "locations":[
+    {
+      "id":11538789,
+      "featured":false,
+      "name":"The Bridge Cinema De Lux",
+      "address":{
+        "street":"6081 Center Drive",
+        "city":"Los Angeles",
+        "state":"CA",
+        "postal_code":"90045"
+      },
+      "neighborhood":"West LA, Westchester",
+      "latitude":33.9781,
+      "longitude":-118.3928,
+      "distance":null,
+      "image":null,
+      "phone_number":"3105683375",
+      "fax_number":null,
+      "rating":8.0,
+      "tagline":null,
+      "profile":"http://losangeles.citysearch.com/profile/11538789/los_angeles_ca/the_bridge_cinema_de_lux.html",
+      "website":null,
+      "has_video":false,
+      "has_offers":false,
+      "offers":null,
+      "user_review_count":39,
+      "sample_categories":"Movie Theaters, IMAX Theaters, Gift Certificate, Visa, MasterCard",
+      "impression_id":"000b000000ced390bcf1f74c2d8bcba135ba961f1b",
+      "expansion":{
+        "count":null,
+        "uri":null
+      },
+      "tags":[
+        {
+          "id":157,
+          "name":"Movie Theaters",
+          "primary":false
+        },
+        {
+          "id":162,
+          "name":"IMAX Theaters",
+          "primary":false
+        },
+        {
+          "id":11352,
+          "name":"Gift Certificate",
+          "primary":false
+        },
+        {
+          "id":11382,
+          "name":"Visa",
+          "primary":false
+        },
+        {
+          "id":11361,
+          "name":"MasterCard",
+          "primary":false
+        }
+      ],
+      "public_id":"the-bridge-cinema-de-lux-los-angeles"
+    },
+    {
+      "id":32845572,
+      "featured":false,
+      "name":"Bridge Cinema Deluxe La",
+      "address":{
+        "street":"6081 Center Dr",
+        "city":"Los Angeles",
+        "state":"CA",
+        "postal_code":"90045"
+      },
+      "neighborhood":"West LA, Westchester",
+      "latitude":33.9781,
+      "longitude":-118.3927,
+      "distance":null,
+      "image":null,
+      "phone_number":"3105683375",
+      "fax_number":null,
+      "rating":9.0,
+      "tagline":null,
+      "profile":"http://losangeles.citysearch.com/profile/32845572/los_angeles_ca/bridge_cinema_deluxe_la.html",
+      "website":null,
+      "has_video":false,
+      "has_offers":false,
+      "offers":null,
+      "user_review_count":4,
+      "sample_categories":"Movie Theaters",
+      "impression_id":"000b000000e7551e3ffc2f4f4a8f67e54164b8b631",
+      "expansion":{
+        "count":null,
+        "uri":null
+      },
+      "tags":[
+        {
+          "id":157,
+          "name":"Movie Theaters",
+          "primary":false
+        }
+      ],
+      "public_id":"bridge-cinema-deluxe-la-los-angeles-2"
+    },
+    {
+      "id":658065700,
+      "featured":true,
+      "name":"Airport Masters Limousine",
+      "address":{
+        "street":"5777 W Century Blvd Suite 1601",
+        "city":"Los Angeles",
+        "state":"CA",
+        "postal_code":"90045"
+      },
+      "neighborhood":null,
+      "latitude":33.94558,
+      "longitude":-118.382726,
+      "distance":null,
+      "image":"http://cms.yext.com/cms/70619987-SUV-s.jpg",
+      "phone_number":"8058527513",
+      "fax_number":null,
+      "rating":null,
+      "tagline":"Call Today to Make an Appointment!",
+      "profile":"http://losangeles.citysearch.com/profile/658065700/los_angeles_ca/airport_masters_limousine.html",
+      "website":"http://losangeles.citysearch.com/profile/external/658065700/los_angeles_ca/airport_masters_limousine.html",
+      "has_video":false,
+      "has_offers":false,
+      "offers":null,
+      "user_review_count":0,
+      "sample_categories":"Newspaper Publishers, Movie Theaters, Unclassified, Airport Parking Service, Car Service",
+      "impression_id":"000b0000009c9bb5f02d0a405a9e0aa6ed81b25f65",
+      "expansion":{
+        "count":null,
+        "uri":null
+      },
+      "tags":[
+        {
+          "id":3454,
+          "name":"Newspaper Publishers",
+          "primary":false
+        },
+        {
+          "id":157,
+          "name":"Movie Theaters",
+          "primary":false
+        },
+        {
+          "id":6019,
+          "name":"Unclassified",
+          "primary":false
+        },
+        {
+          "id":321,
+          "name":"Airport Parking Service",
+          "primary":false
+        },
+        {
+          "id":4224,
+          "name":"Car Service",
+          "primary":false
+        },
+        {
+          "id":246,
+          "name":"Electric Car Dealers",
+          "primary":false
+        },
+        {
+          "id":4223,
+          "name":"Taxis & Shuttles",
+          "primary":false
+        },
+        {
+          "id":4226,
+          "name":"Limousine Service",
+          "primary":false
+        },
+        {
+          "id":332,
+          "name":"All Terrain Vehicle Dealers",
+          "primary":false
+        },
+        {
+          "id":317,
+          "name":"Motorcycle Parts & Accessories",
+          "primary":false
+        },
+        {
+          "id":268,
+          "name":"Automotive Repair",
+          "primary":false
+        },
+        {
+          "id":12627,
+          "name":"Airport Transportation",
+          "primary":false
+        },
+        {
+          "id":10203,
+          "name":"Car Auctions",
+          "primary":false
+        },
+        {
+          "id":12798,
+          "name":"Used Cars",
+          "primary":false
+        }
+      ],
+      "public_id":null
+    },
+    {
+      "id":126166,
+      "featured":false,
+      "name":"Old Town Music Hall",
+      "address":{
+        "street":"140 Richmond Street",
+        "city":"El Segundo",
+        "state":"CA",
+        "postal_code":"90245"
+      },
+      "neighborhood":null,
+      "latitude":33.917,
+      "longitude":-118.417,
+      "distance":null,
+      "image":null,
+      "phone_number":"3103222592",
+      "fax_number":null,
+      "rating":10.0,
+      "tagline":null,
+      "profile":"http://losangeles.citysearch.com/profile/126166/el_segundo_ca/old_town_music_hall.html",
+      "website":null,
+      "has_video":false,
+      "has_offers":false,
+      "offers":null,
+      "user_review_count":1,
+      "sample_categories":"Movie Theaters, First Run Movie Theaters, Halls & Auditoriums, Theatres",
+      "impression_id":"000b00000082fb9fd819914eb2908387e6e08aa8da",
+      "expansion":{
+        "count":null,
+        "uri":null
+      },
+      "tags":[
+        {
+          "id":157,
+          "name":"Movie Theaters",
+          "primary":false
+        },
+        {
+          "id":161,
+          "name":"First Run Movie Theaters",
+          "primary":false
+        },
+        {
+          "id":623,
+          "name":"Halls & Auditoriums",
+          "primary":false
+        },
+        {
+          "id":135,
+          "name":"Theatres",
+          "primary":false
+        }
+      ],
+      "public_id":"old-town-music-hall-el-segundo"
+    },
+    {
+      "id":126151,
+      "featured":false,
+      "name":"Pacific Theatres",
+      "address":{
+        "street":"831 S Nash St",
+        "city":"El Segundo",
+        "state":"CA",
+        "postal_code":"90245"
+      },
+      "neighborhood":null,
+      "latitude":33.9038,
+      "longitude":-118.3888,
+      "distance":null,
+      "image":null,
+      "phone_number":"3106070007",
+      "fax_number":null,
+      "rating":9.0,
+      "tagline":null,
+      "profile":"http://losangeles.citysearch.com/profile/126151/el_segundo_ca/pacific_theatres.html",
+      "website":null,
+      "has_video":false,
+      "has_offers":false,
+      "offers":null,
+      "user_review_count":3,
+      "sample_categories":"Movie Theaters",
+      "impression_id":"000b0000003732fa294e694a0c92211652858f976f",
+      "expansion":{
+        "count":null,
+        "uri":null
+      },
+      "tags":[
+        {
+          "id":157,
+          "name":"Movie Theaters",
+          "primary":false
+        }
+      ],
+      "public_id":"pacific-theatres-el-segundo"
+    },
+    {
+      "id":11278216,
+      "featured":false,
+      "name":"Pacific Beach Cities All Stadium 16",
+      "address":{
+        "street":"831 South Nash Street",
+        "city":"El Segundo",
+        "state":"CA",
+        "postal_code":"90245"
+      },
+      "neighborhood":null,
+      "latitude":33.9018,
+      "longitude":-118.3886,
+      "distance":null,
+      "image":null,
+      "phone_number":"3106070007",
+      "fax_number":null,
+      "rating":7.0,
+      "tagline":null,
+      "profile":"http://losangeles.citysearch.com/profile/11278216/el_segundo_ca/pacific_beach_cities_all_stadium_16.html",
+      "website":null,
+      "has_video":false,
+      "has_offers":false,
+      "offers":null,
+      "user_review_count":2,
+      "sample_categories":"Movie Theaters, First Run Movie Theaters",
+      "impression_id":"000b000000822829fa304e4f8b89e98ed97ea16c5f",
+      "expansion":{
+        "count":null,
+        "uri":null
+      },
+      "tags":[
+        {
+          "id":157,
+          "name":"Movie Theaters",
+          "primary":false
+        },
+        {
+          "id":161,
+          "name":"First Run Movie Theaters",
+          "primary":false
+        }
+      ],
+      "public_id":"pacific-beach-cities-all-stadium-16-el-segundo"
+    },
+    {
+      "id":613194290,
+      "featured":false,
+      "name":"Pacific Theatres Beach Cities",
+      "address":{
+        "street":"831 S Nash St",
+        "city":"El Segundo",
+        "state":"CA",
+        "postal_code":"90245"
+      },
+      "neighborhood":null,
+      "latitude":33.90358,
+      "longitude":-118.388588,
+      "distance":null,
+      "image":null,
+      "phone_number":"3106079630",
+      "fax_number":null,
+      "rating":null,
+      "tagline":null,
+      "profile":"http://losangeles.citysearch.com/profile/613194290/el_segundo_ca/pacific_theatres_beach_cities.html",
+      "website":null,
+      "has_video":false,
+      "has_offers":false,
+      "offers":null,
+      "user_review_count":0,
+      "sample_categories":"Movie Theaters",
+      "impression_id":"000b0000001901f95a147540a4bac1e1d8dcfa3a88",
+      "expansion":{
+        "count":null,
+        "uri":null
+      },
+      "tags":[
+        {
+          "id":157,
+          "name":"Movie Theaters",
+          "primary":false
+        }
+      ],
+      "public_id":"pacific-theatres-beach-cities-el-segundo"
+    },
+    {
+      "id":35796266,
+      "featured":false,
+      "name":"UA 6 MARINA DEL REY",
+      "address":{
+        "street":"4335 GLENCOE AVE",
+        "city":"MARINA DEL REY",
+        "state":"CA",
+        "postal_code":"90291"
+      },
+      "neighborhood":"West LA, Marina Del Ray, Marina Del Rey",
+      "latitude":33.9855,
+      "longitude":-118.4377,
+      "distance":null,
+      "image":null,
+      "phone_number":"3108239377",
+      "fax_number":null,
+      "rating":null,
+      "tagline":null,
+      "profile":"http://losangeles.citysearch.com/profile/35796266/marina_del_rey_ca/ua_6_marina_del_rey.html",
+      "website":null,
+      "has_video":false,
+      "has_offers":false,
+      "offers":null,
+      "user_review_count":0,
+      "sample_categories":"Movie Theaters",
+      "impression_id":"000b0000001fb9885a0a664af89580f2ac399fff1c",
+      "expansion":{
+        "count":null,
+        "uri":null
+      },
+      "tags":[
+        {
+          "id":157,
+          "name":"Movie Theaters",
+          "primary":false
+        }
+      ],
+      "public_id":"ua-6-marina-del-rey-marina-del-rey"
+    },
+    {
+      "id":602384116,
+      "featured":false,
+      "name":"Marina Del Rey 6",
+      "address":{
+        "street":"4335 Glencoe Ave",
+        "city":"Marina Del Rey",
+        "state":"CA",
+        "postal_code":"90292"
+      },
+      "neighborhood":"West LA, Marina Del Ray, Marina Del Rey",
+      "latitude":33.986408,
+      "longitude":-118.439453,
+      "distance":null,
+      "image":"http://images.citysearch.net/assets/imgdb/e6/33/16/eb/b5/92/84/af/a2/1c/c3/4c/4b/3f/ae/73/3/2/9/3/6533293_100x100.JPG",
+      "phone_number":"3108239377",
+      "fax_number":null,
+      "rating":null,
+      "tagline":null,
+      "profile":"http://losangeles.citysearch.com/profile/602384116/marina_del_rey_ca/marina_del_rey_6.html",
+      "website":null,
+      "has_video":false,
+      "has_offers":false,
+      "offers":null,
+      "user_review_count":1,
+      "sample_categories":"Movie Theaters",
+      "impression_id":"000b000000572c98685b80480dbb78c4b2a5586b78",
+      "expansion":{
+        "count":null,
+        "uri":null
+      },
+      "tags":[
+        {
+          "id":157,
+          "name":"Movie Theaters",
+          "primary":false
+        }
+      ],
+      "public_id":"marina-del-rey-6-marina-del-rey"
+    },
+    {
+      "id":613460230,
+      "featured":false,
+      "name":"Paseo Stadium 14",
+      "address":{
+        "street":"831 S Nash St",
+        "city":"El Segundo",
+        "state":"CA",
+        "postal_code":"90245"
+      },
+      "neighborhood":null,
+      "latitude":33.90358,
+      "longitude":-118.388588,
+      "distance":null,
+      "image":null,
+      "phone_number":"6265688888",
+      "fax_number":null,
+      "rating":null,
+      "tagline":null,
+      "profile":"http://losangeles.citysearch.com/profile/613460230/el_segundo_ca/paseo_stadium_14.html",
+      "website":null,
+      "has_video":false,
+      "has_offers":false,
+      "offers":null,
+      "user_review_count":0,
+      "sample_categories":"Movie Theaters",
+      "impression_id":"000b0000000ca37407a12741d18cf9d79bc8cb1df8",
+      "expansion":{
+        "count":null,
+        "uri":null
+      },
+      "tags":[
+        {
+          "id":157,
+          "name":"Movie Theaters",
+          "primary":false
+        }
+      ],
+      "public_id":"paseo-stadium-14-el-segundo"
+    },
+    {
+      "id":613662640,
+      "featured":false,
+      "name":"Regal Marina Del Rey 6",
+      "address":{
+        "street":"4335 Glencoe Ave",
+        "city":"Marina Del Rey",
+        "state":"CA",
+        "postal_code":"90292"
+      },
+      "neighborhood":"West LA, Marina Del Ray, Marina Del Rey",
+      "latitude":33.986401,
+      "longitude":-118.439461,
+      "distance":null,
+      "image":null,
+      "phone_number":"3108231721",
+      "fax_number":null,
+      "rating":null,
+      "tagline":null,
+      "profile":"http://losangeles.citysearch.com/profile/613662640/marina_del_rey_ca/regal_marina_del_rey_6.html",
+      "website":null,
+      "has_video":false,
+      "has_offers":false,
+      "offers":null,
+      "user_review_count":0,
+      "sample_categories":"Movie Theaters",
+      "impression_id":"000b000000ed63fb1a050040df8d85135ba6925a19",
+      "expansion":{
+        "count":null,
+        "uri":null
+      },
+      "tags":[
+        {
+          "id":157,
+          "name":"Movie Theaters",
+          "primary":false
+        }
+      ],
+      "public_id":"regal-marina-del-rey-6-marina-del-rey"
+    },
+    {
+      "id":35797576,
+      "featured":false,
+      "name":"UA Marina Del Rey 6",
+      "address":{
+        "street":"4335 Glencoe Avenue",
+        "city":"Marina Del Rey",
+        "state":"CA",
+        "postal_code":"90292"
+      },
+      "neighborhood":"West LA, Marina Del Ray, Marina Del Rey",
+      "latitude":33.9863,
+      "longitude":-118.4394,
+      "distance":null,
+      "image":null,
+      "phone_number":"8003263264",
+      "fax_number":null,
+      "rating":null,
+      "tagline":null,
+      "profile":"http://losangeles.citysearch.com/profile/35797576/marina_del_rey_ca/ua_marina_del_rey_6.html",
+      "website":null,
+      "has_video":false,
+      "has_offers":false,
+      "offers":null,
+      "user_review_count":0,
+      "sample_categories":"Movie Theaters",
+      "impression_id":"000b0000002a9ff0c3687f42a89aa5638aead6fb1d",
+      "expansion":{
+        "count":null,
+        "uri":null
+      },
+      "tags":[
+        {
+          "id":157,
+          "name":"Movie Theaters",
+          "primary":false
+        }
+      ],
+      "public_id":"ua-marina-del-rey-6-marina-del-rey"
+    }
+  ]
+}}

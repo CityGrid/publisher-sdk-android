@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.citygrid</groupId>
+	<artifactId>citygrid-project</artifactId>
+	<packaging>pom</packaging>
+	<name>CityGrid SDK Project</name>
+	<version>2.4-SNAPSHOT</version>
+	
+	<modules>
+		<module>library</module>
+		<module>example</module>
+		<module>example_2</module>
+	</modules>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+	</properties>
+</project>
